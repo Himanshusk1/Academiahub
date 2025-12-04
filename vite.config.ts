@@ -49,10 +49,11 @@
         '@': path.resolve(__dirname, './src'),
       },
     },
-    build: {
+   build: {
   target: 'esnext',
-  outDir: 'dist',   // ✅ Correct for Vercel
+  outDir: 'dist',   // correct for Vercel
 },
+
     server: {
       port: 3000,
       open: true,
