@@ -50,9 +50,9 @@
       },
     },
     build: {
-      target: 'esnext',
-      outDir: 'build',
-    },
+  target: 'esnext',
+  outDir: 'dist',   // ✅ Correct for Vercel
+},
     server: {
       port: 3000,
       open: true,
